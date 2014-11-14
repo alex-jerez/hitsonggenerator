@@ -1,0 +1,37 @@
+﻿/* AUTHOR */
+		Alex Jerez
+		From: Huntington, NY
+		Twitter: @notalexjerez
+
+
+/* PHOTO CREDITS */
+		Hands 
+		by A Horse With No Name Photography
+		http://www.imcreator.com/free/bw-images/hands-3
+
+
+		Dreamstate
+		by Robert S. Donovan
+		http://www.flickr.com/photos/booleansplit
+
+
+		13/52 my first bokeh
+		by Scarleth White
+		http://www.flickr.com/photos/iloveblue/
+
+
+		TOYBLOID @ FeÌ‚te de l’HumaniteÌ 2012
+		by didy b
+		http://www.flickr.com/photos/didy_b/
+
+
+		bg4 - Shaka Ponk @ FÃªte de l’HumanitÃ© 2012
+		by didy b 
+		http://www.flickr.com/photos/didy_b/
+
+
+/* SITE */
+	Last update: July 13, 2014
+	Language: English
+	Doctype: HTML5
+	Tools Used: HTML5 Boilerplate, Initializr, Sublime Text 2, Notepad++, Photoshop, Google Fonts

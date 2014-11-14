@@ -1,0 +1,69 @@
+    html, body, #canvas { height: 100%; }
+
+    body > #canvas {
+        height: auto; 
+        min-height: 100%;
+    }
+
+    #canvas {
+        width: 100%;
+        position: absolute;
+    }
+
+    #footer {
+        position: absolute;
+        bottom:0px;
+        padding-top:0px;
+        padding-bottom:20px;
+        min-height:120px;
+        max-height:240px;
+        width:100%;
+        background-color: #f1c40f;
+        overflow:hidden;
+        -webkit-transition: max-height .8s ease;
+        -moz-transition: max-height .8s ease;
+        -o-transition: max-height .8s ease;
+        -ms-transition: max-height .8s ease;
+        transition: max-height .8s ease;
+    /* To hide by default, setting max-height 
+          and opacity = 0 */
+        }
+@-webkit-keyframes slideDown {
+    0%, 100% { -webkit-transform: translateY(-50px); }
+    10%, 90% { -webkit-transform: translateY(0px); }
+}/* For Gecko: Mozilla Firefox */
+@-moz-keyframes slideDown {
+    0%, 100% { -moz-transform: translateY(-50px); }
+    10%, 90% { -moz-transform: translateY(0px); }
+}
+.slide-Down /* Slide-Down effect */
+{
+    -webkit-transform: translateY(-50px);
+    -webkit-animation: slideDown 2.5s 1.0s 1 ease forwards;    -moz-transform:    translateY(-50px);
+    -moz-animation:    slideDown 2.5s 1.0s 1 ease forwards;
+}
+    .footerdiv{
+        font-family: 'Open Sans', sans-serif;
+        color:#c02;
+        width:90%;
+        margin: 0 auto;
+
+    }
+    .sharebar{
+        float:right;
+        text-align: center;
+        min-height:20px;
+        min-width:420px;
+        padding:12px;
+    }
+    .footnotebar{
+        min-width: 360px;
+        max-width:420px;
+        font-size: .8em;
+        line-height: 1.2em;
+        display: block;
+        padding:14px;
+    }
+    #credit{
+        display:inline-block;
+    }
